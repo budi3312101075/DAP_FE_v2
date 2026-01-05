@@ -1693,6 +1693,8 @@ export const ModalResetPassword = ({
   };
 
   const onSubmit = async (data) => {
+    document.getElementById(idModal).close();
+
     const confirm = await Swal.fire({
       title: "Ganti Password?",
       text: "User akan menggunakan password baru ini untuk login berikutnya.",
