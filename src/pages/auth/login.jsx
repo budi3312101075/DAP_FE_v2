@@ -115,7 +115,7 @@ const Login = () => {
       </div>
 
       {/* Right Side: Placeholder or Image */}
-      <div className="relative w-full h-screen flex items-center justify-center">
+      <div className="relative w-full h-screen  items-center justify-center hidden md:flex">
         <SplitText
           text="Wellcome To Dana Amal Polibatam!"
           className="absolute text-center text-white text-5xl font-bold z-10 w-[600px]"

@@ -107,6 +107,12 @@ export default function DanaAmalLanding() {
                   {item}
                 </button>
               ))}
+              <Link
+                className="block w-full text-left text-[#6D737A] hover:text-[#68ACC9] pt-1"
+                to="/login"
+              >
+                Login
+              </Link>
             </div>
           </div>
         )}
